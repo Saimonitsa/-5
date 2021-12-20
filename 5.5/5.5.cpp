@@ -38,6 +38,11 @@ int main() {
 		if (zoo[i]->classname() == "Cat")
 			((Cat*)zoo[i])->catch_();
 	}
+	for (int i = 0; i < 10; i++) {
+		Cat* c = dynamic_cast<Cat*>(zoo[i]);
+		if (c != 0)
+			c->catch_();
+	}
 
 }
 
