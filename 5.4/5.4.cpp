@@ -34,3 +34,14 @@ public:
 		return (who == "Dog" || who == "Animal");
 	}
 };
+
+
+int main() {
+	Animal* zoo[10];
+	for (int i = 0; i < 10; i++) {
+		if (rand() % 2 == 0)
+			zoo[i] = new Cat;
+		else
+			zoo[i] = new Dog;
+	}
+}
