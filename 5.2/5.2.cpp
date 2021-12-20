@@ -4,18 +4,14 @@ using namespace std;
 
 class Base {
 public:
-
 	virtual void foo() {
-
 		printf("Base\n");
 	}
 };
 
 class Desc : public Base {
 public:
-
 	void foo() {
-
 		printf("Desc\n");
 	}
 };
