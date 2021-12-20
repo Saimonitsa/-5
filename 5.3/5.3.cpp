@@ -25,7 +25,11 @@ public:
 int main() {
 
 	Animal* a = new Animal;
-
 	delete a;
 
+	Cat* b = new Cat;
+	delete b;
+
+	Animal* c = new Cat;
+	delete c;
 }
