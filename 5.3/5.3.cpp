@@ -24,4 +24,8 @@ public:
 
 int main() {
 
+	Animal* a = new Animal;
+
+	delete a;
+
 }
