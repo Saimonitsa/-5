@@ -3,6 +3,7 @@
 using namespace std;
 
 class Animal {
+
 public:
 	void sound() {
 		printf("Animal::sound\n");
@@ -13,6 +14,7 @@ public:
 };
 
 class Cat : public Animal {
+
 public:
 	void catch_() {
 		printf("Cat::catch_\n");
@@ -23,6 +25,7 @@ public:
 };
 
 int main() {
+
 	Animal* a = new Cat;
 	Cat* c = new Cat;
 	a->sound();
