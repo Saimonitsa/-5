@@ -14,7 +14,7 @@ public:
 	Base(Base& obj) {
 		printf("Base(Base& obj)\n");
 	}
-	~Base() {
+	virtual ~Base() {
 		printf("~Base()\n");
 	}
 
