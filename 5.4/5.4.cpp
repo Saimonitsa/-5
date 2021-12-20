@@ -44,4 +44,8 @@ int main() {
 		else
 			zoo[i] = new Dog;
 	}
+	for (int i = 0; i < 10; i++)
+		if (zoo[i]->classname() == "Cat")
+			((Cat*)zoo[i])->catch_();
+
 }
