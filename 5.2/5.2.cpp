@@ -20,4 +20,6 @@ public:
 
 int main() {
 	Base* x = new Base();
+	x->foo();
+
 }
