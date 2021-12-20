@@ -22,4 +22,9 @@ int main() {
 	Base* x = new Base();
 	x->foo();
 
+	Desc* x1 = new Desc();
+	x1->foo();
+
+	Base* x2 = new Desc();
+	x2->foo();
 }
