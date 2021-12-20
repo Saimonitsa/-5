@@ -5,7 +5,7 @@ using namespace std;
 class Base {
 public:
 
-	void foo() {
+	virtual void foo() {
 
 		printf("Base\n");
 	}
